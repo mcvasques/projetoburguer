@@ -9,7 +9,7 @@
 
     <body>
         <h1>PEDIDOS</h1>
-            <form action="" method="get"></form>
+            <form action="" method="get">
             <label for="Nome">Nome do Pedido</label>
             <input id="name" type="text" placeholder="Ex: X-tudo" name="nome"> 
             <input type="submit" valeu="ENVIA">
@@ -59,6 +59,7 @@
            <option value="3"> 3</option> 
            <input type="submit" value="Enviar">
          </select>
+         </form>
 
 </body>
 </html>
