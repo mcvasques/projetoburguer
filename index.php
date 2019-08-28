@@ -1,7 +1,3 @@
-<?php
-var_dump("a");
-die
-?>
 <!DOCTYPE html>
 
 <html>
@@ -20,12 +16,7 @@ die
            <p>
             <h2>SELECIONE A QUANTIDADE:</h2>
               <p>Pão</p>
-               <select name="select">
-                <option value="1">1</option> 
-                <option value="2" selected>2</option>
-                <option value="3"> 3</option> 
-                <input type="submit" value="Enviar">
-              </select>
+               <input name="pao" id="pao" type="number">
             <p>Carne</p>
              <select name="select">
               <option value="1">1</option> 
