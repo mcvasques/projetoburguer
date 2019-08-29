@@ -1,0 +1,18 @@
+body{
+    font-family: 'Times New Roman', Times, sans-serif;
+    color: black
+}
+.principal{
+    width: 960px; 
+    margin: auto;
+    background: #DCDCDC;
+    padding: 10px; 20px;
+}
+h1{
+    text-align: center;
+    background: red;
+
+}
+label, input[type=submit]{
+    display: block;
+    
