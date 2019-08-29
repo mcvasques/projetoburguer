@@ -10,29 +10,16 @@
     <body> 
       <div class="principal">
         <h1>PEDIDOS</h1>
-               <h2>SELECIONE A QUANTIDADE:</h2>
-                <p>Pão</p>
-                 <select name="pão">
-                  <option value="1">1</option> 
-                  <option value="2" selected>2</option>
-                  <option value="3"> 3</option>
-                </select>
+            <form action="" method="get">
+            <label for="Nome">Nome do Pedido</label>
+            <input id="name" type="text" placeholder="Ex: X-tudo" name="nome"> 
+            <input type="submit" valeu="ENVIA">
+           <p>
+            <h2>SELECIONE A QUANTIDADE:</h2>
+              <p>Pão</p>
+               <input name="pao" id="pao" type="number">
+            <p>Carne</p>
 
-              <p>Carne</p>
-               <select name="select">
-                <option value="1">1</option> 
-                <option value="2" selected>2</option>
-                <option value="3"> 3</option> 
-               
-              </select>
-              <p>Salada</p>
-              <select name="select">
-               <option value="1">1</option> 
-               <option value="2" selected>2</option>
-               <option value="3"> 3</option> 
-             
-             </select>
-             <p>Queijo</p>
              <select name="select">
               <option value="1">1</option> 
               <option value="2" selected>2</option>
@@ -79,6 +66,7 @@
 
            <h3>Quantidade:</h3>
            <select name="select">
+<<<<<<< HEAD
                 <option value="1">1</option> 
                 <option value="2" selected>2</option>
                 <option value="3"> 3</option> 
@@ -88,6 +76,35 @@
         
 
 </div>
+=======
+            <option value="1">1</option> 
+            <option value="2" selected>2</option>
+            <option value="3"> 3</option> 
+            <input type="submit" value="Enviar">
+          </select>
+          <p>Ovos</p>
+          <select name="select">
+           <option value="1">1</option> 
+           <option value="2" selected>2</option>
+           <option value="3"> 3</option> 
+           <input type="submit" value="Enviar">
+         </select>
+         <p>Batata Palha</p>
+         <select name="select">
+          <option value="1">1</option> 
+          <option value="2" selected>2</option>
+          <option value="3"> 3</option> 
+          <input type="submit" value="Enviar">
+        </select>
+        <p>Milho</p>
+          <select name="select">
+           <option value="1">1</option> 
+           <option value="2" selected>2</option>
+           <option value="3"> 3</option> 
+           <input type="submit" value="Enviar">
+         </select>
+         </form>
+>>>>>>> 35af6121ec8fd19ea62e2fc81dfd66f98ec90a74
 
 </body>
 </html>
