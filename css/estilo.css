@@ -1,6 +1,7 @@
 body{
-    font-family: 'Times New Roman', Times, sans-serif;
+    font-family: 'Times New Roman', Times, sans-serif; size: 20px;
     color: black
+    
 }
 .principal{
     width: 960px; 
@@ -15,4 +16,5 @@ h1{
 }
 label, input[type=submit]{
     display: block;
-    
+    background: red;
+}

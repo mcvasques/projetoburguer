@@ -2,59 +2,34 @@
 
 <html>
     <head>
-        <title>KINGBURGUER</title>
+        <title>KINGBURGER</title>
         <meta charset="utf8"> 
-        <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
     </head>
 
     <body> 
       <div class="principal">
-        <h1>PEDIDOS</h1>
+        <h1>PEDIDOS QUEENBURGER</h1>
 
                <h2>SELECIONE A QUANTIDADE:</h2>
-                <p>Pão</p>
-                 <select name="pão">
-                  <option value="1">1</option> 
-                  <option value="2" selected>2</option>
-                  <option value="3"> 3</option>
-                </select>
-
+              <p>Pão</p>
+                <input name="name" type="number" value="99" min="0">
               <p>Carne</p>
-               <select name="select">
-                <option value="1">1</option> 
-                <option value="2" selected>2</option>
-                <option value="3"> 3</option> 
-               
-              </select>
-              <p>Salada</p>
-              <select name="select">
-               <option value="1">1</option> 
-               <option value="2" selected>2</option>
-               <option value="3"> 3</option> 
-             
-             </select>
-             <p>Queijo</p>
-
-             <select name="select">
-              <option value="1">1</option> 
-              <option value="2" selected>2</option>
-              <option value="3"> 3</option> 
+               <input name=name type="number" valeu="99" min="0">
               
-            </select>
-            <p>Ovos</p>
-            <select name="select">
-             <option value="1">1</option> 
-             <option value="2" selected>2</option>
-             <option value="3"> 3</option> 
+              <p>Salada</p>
+              <input name=name type="number" valeu="99" min="0">
+             
+             <p>Queijo</p>
+             <input name=name type="number" valeu="99" min="0">
+
+             <p>Ovos</p>
+             <input name=name type="number" valeu="99" min="0"> 
 
              <p>Bacon</p>
-             <select name="select">
-              <option value="1">1</option> 
-              <option value="2" selected>2</option>
-              <option value="3"> 3</option> 
-             
+             <input name=name type="number" valeu="99" min="0"> 
 
-           <h2>Salada</h2>
+          <h2>Salada</h2>
            <input type="checkbox" name="Alface"> Alface
            <input type="checkbox" name="Tomate"> Tomate
            <input type="checkbox" name="Batata Palha"> Batata Palha
@@ -64,10 +39,10 @@
            <input type="checkbox" name="Catupiry">Catupiry
            <input type="checkbox" name="Maionese Temperada">Maionese Temperada 
            <input type="checkbox" name="Ketchup">Ketchup
-           <h2>Tipos de Hamburguer</h2>
-           <input type="radio" name="name" value="Hamburguer">Hamburguer
-           <input type="radio" name="name" value="CheeseBurguer">CheeseBurguer
-           <input type="radio" name="name" value="EggcheeseBurgue">EggcheeseBurguer
+           <h2>Tipos de Sanduíches</h2>
+           <input type="radio" name="name" value="Hamburger">Hamburguer
+           <input type="radio" name="name" value="CheeseBurger">CheeseBurger
+           <input type="radio" name="name" value="EggcheeseBurger">EggcheeseBurger
            <input type="radio" name="name" value="CheeseBacon">CheeseBacon
            <input type="radio" name="name" value="EggCheeseBacon">EggCheeseBacon
            
@@ -80,10 +55,10 @@
            <input type="radio" name="name" value="2Litros">2 Litros 
 
            <h3>Quantidade:</h3>
-           <select name="select">
-                <option value="1">1</option> 
-                <option value="2" selected>2</option>
-                <option value="3"> 3</option> 
+           <input name=name type="number" valeu="99" min="0"> 
+
+           <input type="submit" value="Finalizar Pedido">
+
                 
 
          
