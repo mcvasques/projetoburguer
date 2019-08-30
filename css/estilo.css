@@ -1,29 +1,53 @@
 
 body{
     font-family: 'Times New Roman', Times, sans-serif;
-    color: black
-    
-}
-.principal{
-    width: 960px; 
+    color: black;
     margin: auto;
-    background: #DCDCDC;
-    padding: 10px; 20px;
+    background: #D3D3D3
+}
     
-}
-h1{
-    text-align: center;
-    background: red;
-
-}
-label, input,[type=submit]{
-    display: block;
-    cursor: pointer;
 }
 p{
     font-family: 'Times New Roman', Times, sans-serif;
     color: black;
-    font-size: 18px;
-    margin: 0px;
+}
   
 }
+#principal{
+    width: 1280px;
+    height: 720px;
+    background:	#696969;
+    padding: 10px; 20px; 
+    margin: auto;
+    
+}
+    
+h1{
+    letter-spacing: 6px;
+    text-align: center;
+    background: red;
+
+}
+h2{
+    font-family: 'Times New Roman', Times, sans-serif;
+    color:red;
+    font-size: 20px;
+    text-shadow:#000 -1px -1px
+}
+h3{
+    font-family: 'Times New Roman', Times, sans-serif;
+    color:red;
+    font-size: 20px;
+    text-shadow:#000 -1px -1px;
+}
+
+}
+label, input,.checkbox[type=submit]{
+    display: inline;
+    cursor: pointer;
+    margin: 0px;
+    padding: 10px, 20px;
+    size: 17px;
+}
+
+
